@@ -1,5 +1,3 @@
-# nikklinc.github.io
-
 # Nikkl Website
 
 ## Prerequisites
@@ -8,9 +6,9 @@
 
 Documentation - [TailwindCSS](https://tailwindcss.com/docs/installation)
 
-npm install -D tailwindcss
-
-npx tailwindcss init
+Run -
+1. npm install -D tailwindcss
+2. npx tailwindcss init
 
 ## File structure
 
