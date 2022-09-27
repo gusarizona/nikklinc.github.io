@@ -2,6 +2,13 @@
 
 # Nikkl Website
 
+## Prerequisites
+
+### Tailwind CLI
+
+npm install -D tailwindcss
+npx tailwindcss init
+
 ## File structure
 
 /docs is the where github pages serves the site files.
