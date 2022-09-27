@@ -10,10 +10,27 @@
 </head>
 
 <body>
-    <p>Nikkl</p>
-    <a href="./">Home</a>
-    <a href="./about/">About</a>
-    <a href="./contact/">Contact</a>
+
+    <div class="relative bg-white">
+        <div class="flex items-center justify-between px-4 py-6 sm:px-6 md:justify-start md:space-x-10 border-b-2 border-gray-100">
+            <div class="flex justify-start lg:w-0 lg:flex-1">
+            <a href="#">
+                <span class="sr-only">Nikkl</span>
+                <img class="h-8 w-auto sm:h-10" src="img/logo-nikkl.svg" alt="">
+            </a>
+            </div>
+            <nav class="flex space-x-4  md:space-x-10">
+
+            <a href="./" class="text-base font-medium text-gray-500 hover:text-indigo">Home</a>
+            <a href="./about/" class="text-base font-medium text-gray-500 hover:text-indigo">About</a>
+            <a href="./contact/" class="text-base font-medium text-gray-500 hover:text-indigo">Contact</a>
+
+            </nav>
+            <div class="hidden items-center justify-end md:flex md:flex-1 lg:w-0">
+            </div>
+        </div>
+    </div>
+  
 
     <h1>We support unicorn employees.</h1>
     <p>Unlock the liquidity of your hard-earned unicorn stock options.</p>
