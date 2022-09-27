@@ -7,6 +7,7 @@
 ### Tailwind CLI
 
 npm install -D tailwindcss
+
 npx tailwindcss init
 
 ## File structure
