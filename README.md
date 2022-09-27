@@ -9,6 +9,6 @@ To run the build files, go in the /theme file and run 'npx tailwindcss -i ./src/
 To go live:
 
 1. Copy HTML files from /theme/src into /docs
-2. Copy /theme/dist/output.css into /docs/styles
+2. Copy /theme/dist/output.css into /docs/dist
 3. Change css paths in html files to dist/output.css
 3. Push /docs changes to go live
