@@ -10,6 +10,11 @@ Run -
 1. npm install -D tailwindcss
 2. npx tailwindcss init
 
+## Plugins
+
+Run -
+1. npm i @tailwindcss/aspect-ratio
+
 ## File structure
 
 /docs is the where github pages serves the site files.
