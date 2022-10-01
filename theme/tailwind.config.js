@@ -34,9 +34,13 @@ module.exports = {
         700: '#352354', 
         800: '#2b1c43', 
         900: '#231737',
-      }, 
+      }
+    }, 
+    extend: {
+      fontFamily: {
+        sans: ['"Work Sans"']
+      }
     },
-    extend: {},
   },
   plugins: [
     require('@tailwindcss/aspect-ratio'),
