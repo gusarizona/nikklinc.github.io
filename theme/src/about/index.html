@@ -10,31 +10,32 @@
 </head>
 
 <body>
-    <div class="relative bg-white">
-        <div
-            class="flex items-center justify-between px-4 py-6 sm:px-6 md:justify-start md:space-x-10 border-b-2 border-gray-100">
-            <div class="flex justify-start lg:w-0 lg:flex-1">
-                <a href="#">
-                    <span class="sr-only">Nikkl</span>
-                    <img class="h-8 w-auto sm:h-10" src="../img/logo-nikkl.svg" alt="">
-                </a>
-            </div>
-            <nav class="flex space-x-4  md:space-x-10">
 
-                <a href="../" class="text-base font-medium text-gray-500 hover:text-indigo">Home</a>
-                <a href="../about/" class="text-base font-medium text-gray-500 hover:text-indigo">About</a>
-                <a href="../contact/" class="text-base font-medium text-gray-500 hover:text-indigo">Contact</a>
+    <div class="bg-gradient-to-r from-indigo-900 to-indigo-700">
 
-            </nav>
-            <div class="hidden items-center justify-end md:flex md:flex-1 lg:w-0">
+        <div class="relative">
+            <div class="flex items-center justify-between px-4 py-6 sm:px-6 md:justify-start md:space-x-10">
+                <div class="flex justify-start lg:w-0 lg:flex-1">
+                    <a href="../">
+                        <span class="sr-only">Nikkl</span>
+                        <img class="h-10 w-auto sm:h-14" src="../img/logo-nikkl-white.svg" alt="Nikkl">
+                    </a>
+                </div>
+                <nav class="flex space-x-4  md:space-x-10">
+    
+                    <a href="../" class="text-base uppercase font-bold text-indigo-200 hover:text-white">Home</a>
+                    <a href="../about/" class="text-base uppercase font-bold text-indigo-200 hover:text-white">About</a>
+                    <a href="../contact/" class="text-base uppercase font-bold text-indigo-200 hover:text-white">Contact</a>
+    
+                </nav>
+                <div class="hidden items-center justify-end md:flex md:flex-1 lg:w-0">
+                </div>
             </div>
         </div>
-    </div>
 
-    <div class="bg-indigo-900">
         <div class="mx-auto max-w-7xl py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
             <div class="text-center">
-                <h1 class="mt-1 text-xl font-bold tracking-tight text-indigo-300">Our Mission</h1>
+                <h1 class="mt-1 text-xl font-bold tracking-tight text-indigo-300 uppercase">Our Mission</h1>
                 <p class="mx-auto mt-5 max-w-7xl font-bold text-4xl text-white sm:text-5xl lg:text-6xl">We want to exercise every vested and exercisable
                     employee option grant.</p>
                 <p class="mx-auto mt-5 max-w-7xl text-white sm:text-lg md:mt-8 md:max-w-3xl md:text-2xl">Leveling the playing field for unicorn employees.</p>
@@ -43,15 +44,9 @@
         </div>
     </div>
     <div class="overflow-hidden bg-white">
-        <div class="relative mx-auto py-16 px-4 sm:px-6 lg:px-8">
+        <div class="relative mx-auto py-16 xl:py-32 px-4 sm:px-6 lg:px-8">
             <div class="absolute top-0 bottom-0 left-3/4 hidden w-screen bg-indigo-50 lg:block"></div>
-            <div class="mx-auto max-w-prose text-base lg:grid lg:max-w-none lg:grid-cols-2 lg:gap-8">
-                <div>
-                    <h3 class="mt-2 text-3xl font-bold leading-8 tracking-tight text-gray-900 sm:text-4xl">Our vision is
-                        to help unicorn employees thrive in the new private market
-                    </h3>
-                </div>
-            </div>
+            
             <div class="mt-8 lg:grid lg:grid-cols-2 lg:gap-8">
                 <div class="relative lg:col-start-2 lg:row-start-1">
                     <svg class="absolute top-0 right-0 -mt-20 -mr-20 hidden lg:block" width="404" height="384"
@@ -59,14 +54,14 @@
                         <defs>
                             <pattern id="de316486-4a29-4312-bdfc-fbce2132a2c1" x="0" y="0" width="20" height="20"
                                 patternUnits="userSpaceOnUse">
-                                <rect x="0" y="0" width="4" height="4" class="text-gray-200" fill="currentColor" />
+                                <rect x="0" y="0" width="4" height="4" class="text-indigo-200" fill="currentColor" />
                             </pattern>
                         </defs>
                         <rect width="404" height="384" fill="url(#de316486-4a29-4312-bdfc-fbce2132a2c1)" />
                     </svg>
                     <div class="relative mx-auto max-w-prose text-base lg:max-w-none">
                         <figure>
-                            <div class="aspect-w-12 aspect-h-7 lg:aspect-none">
+                            <div class="aspect-w-12 aspect-h-7 lg:aspect-h-12 2xl:aspect-h-8 first-letter:">
                                 <img class="rounded-lg object-cover object-center shadow-lg"
                                     src="https://images.unsplash.com/photo-1546913199-55e06682967e?ixlib=rb-1.2.1&auto=format&fit=crop&crop=focalpoint&fp-x=.735&fp-y=.55&w=1184&h=1376&q=80"
                                     alt="Whitney leaning against a railing on a downtown street" width="1184"
@@ -75,15 +70,17 @@
                         </figure>
                     </div>
                 </div>
-                <div class="mt-8 lg:mt-0">
-                    <div class="mx-auto max-w-prose text-base lg:max-w-none">
-                        <p class="text-lg text-gray-500">Nikkl provides capital to unicorn employees, so that employees
+                <div class="mt-8 lg:mt-0 lg:px-16">
+                    <div>
+                        <h3 class="mt-2 text-3xl xl:text-5xl font-bold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-indigo to-indigo-400">Our vision is
+                            to help unicorn employees thrive in the new private market
+                        </h3>
+                    </div>
+                    <div class="mx-auto lg:max-w-none mt-4">
+                        <p class="text-lg xl:text-2xl text-indigo">Nikkl provides capital to unicorn employees, so that employees
                             can exercise their vested options to purchase
                             shares, significantly reduce their taxes, and gain near-term liquidity.</p>
-                    </div>
-                    <div
-                        class="prose prose-indigo mx-auto mt-5 text-gray-500 lg:col-start-1 lg:row-start-1 lg:max-w-none">
-                        <p>Nikkl was founded in response to the rising financial risks of holding equity in a successful
+                        <p class="mt-4 text-lg xl:text-2xl text-indigo">Nikkl was founded in response to the rising financial risks of holding equity in a successful
                             startup company.
                             Many unicorn employees take huge financial losses due to expensive upfront costs, tax
                             complexities and long exit
@@ -97,12 +94,12 @@
         </div>
     </div>
 
-    <div class="bg-indigo-900">
+    <div class="bg-gradient-to-br from-indigo-200 via-white to-indigo-200">
         <div class="mx-auto py-12 px-4 sm:px-6 lg:px-8 lg:py-24">
             <div class="space-y-12">
                 <div class="space-y-5 sm:space-y-4 mx-auto max-w-7xl">
-                    <h2 class="text-3xl font-bold tracking-tight text-white sm:text-4xl">Meet the team</h2>
-                    <p class="text-xl text-indigo-300">Nikkl is led by Dan Siciliano who is the Chair Elect of
+                    <h2 class="text-3xl xl:text-5xl font-bold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-indigo to-indigo-400">Meet the team</h2>
+                    <p class="text-lg xl:text-2xl text-indigo">Nikkl is led by Dan Siciliano who is the Chair Elect of
                         Federal
                         Home Loan Bank Council and was formerly a Professor of the Practice and Associate Dean
                         at
@@ -113,20 +110,20 @@
                 </div>
                 <ul role="list"
                     class="space-y-4 sm:grid sm:grid-cols-2 sm:gap-6 sm:space-y-0 lg:grid-cols-3 2xl:grid-cols-5 lg:gap-8">
-                    <li class="rounded-lg bg-indigo-800 py-10 px-6 text-center xl:px-10 xl:text-left">
+                    <li class="rounded-lg bg-white py-10 px-6 text-center xl:px-10 xl:text-left">
                         <div class="space-y-6 xl:space-y-10">
                             <img class="mx-auto h-40 w-40 rounded-full xl:h-56 xl:w-56" src="../img/Dan_Siciliano.png"
                                 alt="Dan Siciliano">
                             <div class="space-y-2 xl:flex xl:items-center xl:justify-between">
-                                <div class="space-y-1 text-lg font-medium leading-6">
-                                    <h3 class="text-white">Dan Siciliano</h3>
-                                    <p class="text-indigo-400">Chief Executive Officer</p>
+                                <div class="space-y-1 leading-6">
+                                    <h3 class="text-indigo font-bold text-lg lg:text-xl">Dan Siciliano</h3>
+                                    <p class="text-indigo-400 font-semibold">Chief Executive Officer</p>
                                 </div>
 
                                 <ul role="list" class="flex justify-center space-x-5">
                                     <li>
                                         <a href="https://www.linkedin.com/in/dansiciliano/"
-                                            class="text-indigo-400 hover:text-indigo-300">
+                                            class="text-indigo-400 hover:text-indigo" target="_blank">
                                             <span class="sr-only">LinkedIn</span>
                                             <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 20 20"
                                                 aria-hidden="true">
@@ -138,8 +135,8 @@
                                     </li>
                                 </ul>
                             </div>
-                            <div class="text-indigo-300">
-                                <ul class="pl-5 list-disc">
+                            <div class="text-indigo">
+                                <ul class="pl-5 list-disc text-left">
                                     <li>Chair Elect of the Federal Home Loan Bank Council</li>
                                     <li>Co-Founder, CEO & Executive Chairman, LawLogix</li>
                                     <li>Professor of the Practice and Associate Dean, Stanford Law School</li>
@@ -148,20 +145,20 @@
                         </div>
                     </li>
 
-                    <li class="rounded-lg bg-indigo-800 py-10 px-6 text-center xl:px-10 xl:text-left">
+                    <li class="rounded-lg bg-white py-10 px-6 text-center xl:px-10 xl:text-left">
                         <div class="space-y-6 xl:space-y-10">
                             <img class="mx-auto h-40 w-40 rounded-full xl:h-56 xl:w-56" src="../img/Mike_Matousek.jpeg"
                                 alt="Mike Matousek">
                             <div class="space-y-2 xl:flex xl:items-center xl:justify-between">
-                                <div class="space-y-1 text-lg font-medium leading-6">
-                                    <h3 class="text-white">Mike Matousek</h3>
-                                    <p class="text-indigo-400">Chief Revenue Officer</p>
+                                <div class="space-y-1 leading-6">
+                                    <h3 class="text-indigo font-bold text-lg lg:text-xl">Mike Matousek</h3>
+                                    <p class="text-indigo-400 font-semibold">Chief Revenue Officer</p>
                                 </div>
 
                                 <ul role="list" class="flex justify-center space-x-5">
                                     <li>
                                         <a href="https://www.linkedin.com/in/mikematousek/"
-                                            class="text-indigo-400 hover:text-indigo-300">
+                                            class="text-indigo-400 hover:text-indigo" target="_blank">
                                             <span class="sr-only">LinkedIn</span>
                                             <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 20 20"
                                                 aria-hidden="true">
@@ -173,8 +170,8 @@
                                     </li>
                                 </ul>
                             </div>
-                            <div class="text-indigo-300">
-                                <ul class="pl-5 list-disc">
+                            <div class="text-indigo">
+                                <ul class="pl-5 list-disc text-left">
                                     <li>Founding Team Member of Quid Capital, which pioneered lending to unicorn
                                         employees</li>
                                 </ul>
@@ -182,20 +179,20 @@
                         </div>
                     </li>
 
-                    <li class="rounded-lg bg-indigo-800 py-10 px-6 text-center xl:px-10 xl:text-left">
+                    <li class="rounded-lg bg-white py-10 px-6 text-center xl:px-10 xl:text-left">
                         <div class="space-y-6 xl:space-y-10">
                             <img class="mx-auto h-40 w-40 rounded-full xl:h-56 xl:w-56" src="../img/Mike_Huskins.png"
                                 alt="Mike Huskins">
                             <div class="space-y-2 xl:flex xl:items-center xl:justify-between">
-                                <div class="space-y-1 text-lg font-medium leading-6">
-                                    <h3 class="text-white">Mike Huskins</h3>
-                                    <p class="text-indigo-400">Chief Legal Officer</p>
+                                <div class="space-y-1 leading-6">
+                                    <h3 class="text-indigo font-bold text-lg lg:text-xl">Mike Huskins</h3>
+                                    <p class="text-indigo-400 font-semibold">Chief Legal Officer</p>
                                 </div>
 
                                 <ul role="list" class="flex justify-center space-x-5">
                                     <li>
                                         <a href="https://www.linkedin.com/in/michael-huskins-52b1931/"
-                                            class="text-indigo-400 hover:text-indigo-300">
+                                            class="text-indigo-400 hover:text-indigo" target="_blank">
                                             <span class="sr-only">LinkedIn</span>
                                             <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 20 20"
                                                 aria-hidden="true">
@@ -207,8 +204,8 @@
                                     </li>
                                 </ul>
                             </div>
-                            <div class="text-indigo-300">
-                                <ul class="pl-5 list-disc">
+                            <div class="text-indigo">
+                                <ul class="pl-5 list-disc text-left">
                                     <li>Twilio</li>
                                     <li>McKinsey</li>
                                     <li>Wilson Sonsini Goodrich & Rosati</li>
@@ -217,20 +214,20 @@
                         </div>
                     </li>
 
-                    <li class="rounded-lg bg-indigo-800 py-10 px-6 text-center xl:px-10 xl:text-left">
+                    <li class="rounded-lg bg-white py-10 px-6 text-center xl:px-10 xl:text-left">
                         <div class="space-y-6 xl:space-y-10">
                             <img class="mx-auto h-40 w-40 rounded-full xl:h-56 xl:w-56" src="../img/Jesus_Ancheta.jpg"
                                 alt="Jesus Ancheta">
                             <div class="space-y-2 xl:flex xl:items-center xl:justify-between">
-                                <div class="space-y-1 text-lg font-medium leading-6">
-                                    <h3 class="text-white">Jesus Ancheta</h3>
-                                    <p class="text-indigo-400">Chief Administrative Officer</p>
+                                <div class="space-y-1 leading-6">
+                                    <h3 class="text-indigo font-bold text-lg lg:text-xl">Jesus Ancheta</h3>
+                                    <p class="text-indigo-400 font-semibold">Chief Administrative Officer</p>
                                 </div>
 
                                 <ul role="list" class="flex justify-center space-x-5">
                                     <li>
                                         <a href="https://www.linkedin.com/in/jesusancheta/"
-                                            class="text-indigo-400 hover:text-indigo-300">
+                                            class="text-indigo-400 hover:text-indigo" target="_blank">
                                             <span class="sr-only">LinkedIn</span>
                                             <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 20 20"
                                                 aria-hidden="true">
@@ -242,8 +239,8 @@
                                     </li>
                                 </ul>
                             </div>
-                            <div class="text-indigo-300">
-                                <ul class="pl-5 list-disc">
+                            <div class="text-indigo">
+                                <ul class="pl-5 list-disc text-left">
                                     <li>Vice President, Services and Operations, Hyland Software</li>
                                     <li>SVP, Finance & Administration, LawLogix</li>
                                 </ul>
@@ -251,20 +248,20 @@
                         </div>
                     </li>
 
-                    <li class="rounded-lg bg-indigo-800 py-10 px-6 text-center xl:px-10 xl:text-left">
+                    <li class="rounded-lg bg-white py-10 px-6 text-center xl:px-10 xl:text-left">
                         <div class="space-y-6 xl:space-y-10">
                             <img class="mx-auto h-40 w-40 rounded-full xl:h-56 xl:w-56" src="../img/Gus_Figueroa.png"
                                 alt="Gus Figueroa">
                             <div class="space-y-2 xl:flex xl:items-center xl:justify-between">
-                                <div class="space-y-1 text-lg font-medium leading-6">
-                                    <h3 class="text-white">Gus Figueroa</h3>
-                                    <p class="text-indigo-400">Chief Technology Officer</p>
+                                <div class="space-y-1 leading-6">
+                                    <h3 class="text-indigo font-bold text-lg lg:text-xl">Gus Figueroa</h3>
+                                    <p class="text-indigo-400 font-semibold">Chief Technology Officer</p>
                                 </div>
 
                                 <ul role="list" class="flex justify-center space-x-5">
                                     <li>
                                         <a href="https://www.linkedin.com/in/gus-figueroa/"
-                                            class="text-indigo-400 hover:text-indigo-300">
+                                            class="text-indigo-400 hover:text-indigo" target="_blank">
                                             <span class="sr-only">LinkedIn</span>
                                             <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 20 20"
                                                 aria-hidden="true">
@@ -276,8 +273,8 @@
                                     </li>
                                 </ul>
                             </div>
-                            <div class="text-indigo-300">
-                                <ul class="pl-5 list-disc">
+                            <div class="text-indigo">
+                                <ul class="pl-5 list-disc text-left">
                                     <li>Chief Software Architect / Interim CTO, Offerpad (first employee)</li>
                                     <li>Co-Founder & Co-CEO, Nerdino</li>
                                 </ul>
@@ -289,12 +286,12 @@
         </div>
     </div>
 
-    <footer class="bg-indigo-800" aria-labelledby="footer-heading">
+    <footer class="bg-gradient-to-r from-indigo-900 to-indigo-700" aria-labelledby="footer-heading">
         <h2 id="footer-heading" class="sr-only">Footer</h2>
-        <div class="mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
+        <div class="mx-auto py-12 px-4 sm:px-6 lg:py-32 lg:px-16">
             <div class="xl:grid xl:grid-cols-3 xl:gap-8">
                 <div class="space-y-8 xl:col-span-1">
-                    <img class="h-10" src="../img/logo-nikkl.svg" alt="Nikkl">
+                    <img class="h-10 w-auto sm:h-14" src="../img/logo-nikkl-white.svg" alt="Nikkl">
                     <p class="text-base text-gray-300">Nikkl provides capital to unicorn employees so that employees can
                         exercise their vested options to purchase shares, significantly reduce their taxes, and gain
                         near-term liquidity. Nikkl is certified as a minority business enterprise.</p>
@@ -331,23 +328,23 @@
                         <div class="hidden xl:grid">
                         </div>
                         <div class="md:mt-0">
-                            <h3 class="text-base font-medium text-white">Menu</h3>
+                            <h3 class="text-lg lg:text-2xl font-medium text-white">Menu</h3>
                             <ul role="list" class="mt-4 space-y-4">
                                 <li>
-                                    <a href="../" class="text-base text-gray-300 hover:text-white">Home</a>
+                                    <a href="../" class="text-base uppercase text-gray-300 hover:text-white">Home</a>
                                 </li>
 
                                 <li>
-                                    <a href="../about/" class="text-base text-gray-300 hover:text-white">About</a>
+                                    <a href="../about/" class="text-base uppercase text-gray-300 hover:text-white">About</a>
                                 </li>
 
                                 <li>
-                                    <a href="../contact/" class="text-base text-gray-300 hover:text-white">Contact</a>
+                                    <a href="../contact/" class="text-base uppercase text-gray-300 hover:text-white">Contact</a>
                                 </li>
                             </ul>
                         </div>
                         <div class="md:mt-0">
-                            <h3 class="text-base font-medium text-white">Contact</h3>
+                            <h3 class="text-lg lg:text-2xl font-medium text-white">Contact</h3>
                             <ul role="list" class="mt-4 space-y-4">
                                 <li>
                                     <span class="text-base text-gray-300">602-345-1466</span>
