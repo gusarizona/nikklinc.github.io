@@ -7,20 +7,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link type="text/css" href="../dist/output.css" rel="stylesheet">
+
+    <!-- <style>
+        .animated-bg {
+            background: linear-gradient(-45deg, #b5acc6, #fff, #b5acc6, #edeaf1);
+            background-size: 400% 400%;
+            animation: gradient 15s ease infinite;
+            height: 95vh;
+        }
+
+        @keyframes gradient {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+    </style> -->
 </head>
 
 <body>
 
 
-    <div class="relative overflow-hidden bg-indigo-700">
-        <div class="hidden sm:absolute sm:inset-y-0 sm:block sm:h-full sm:w-full" aria-hidden="true">
+    <div class="relative overflow-hidden animated-bg">
+        <!-- <div class="hidden sm:absolute sm:inset-y-0 sm:block sm:h-full sm:w-full" aria-hidden="true">
             <div class="relative mx-auto h-full max-w-7xl">
                 <svg class="absolute right-full translate-y-1/4 translate-x-1/4 transform lg:translate-x-1/2"
                     width="404" height="784" fill="none" viewBox="0 0 404 784">
                     <defs>
                         <pattern id="f210dbf6-a58d-4871-961e-36d5016a0f49" x="0" y="0" width="20" height="20"
                             patternUnits="userSpaceOnUse">
-                            <rect x="0" y="0" width="4" height="4" class="text-indigo-500" fill="currentColor" />
+                            <rect x="0" y="0" width="4" height="4" class="text-indigo-200" fill="currentColor" />
                         </pattern>
                     </defs>
                     <rect width="404" height="784" fill="url(#f210dbf6-a58d-4871-961e-36d5016a0f49)" />
@@ -30,28 +51,27 @@
                     <defs>
                         <pattern id="5d0dd344-b041-4d26-bec4-8d33ea57ec9b" x="0" y="0" width="20" height="20"
                             patternUnits="userSpaceOnUse">
-                            <rect x="0" y="0" width="4" height="4" class="text-indigo-500" fill="currentColor" />
+                            <rect x="0" y="0" width="4" height="4" class="text-indigo-200" fill="currentColor" />
                         </pattern>
                     </defs>
                     <rect width="404" height="784" fill="url(#5d0dd344-b041-4d26-bec4-8d33ea57ec9b)" />
                 </svg>
             </div>
-        </div>
+        </div> -->
 
         <div class="relative">
-            <div
-                class="flex items-center justify-between px-4 py-6 sm:px-6 md:justify-start md:space-x-10 border-b-2 border-indigo-800">
+            <div class="flex items-center justify-between px-4 py-6 sm:px-6 md:justify-start md:space-x-10">
                 <div class="flex justify-start lg:w-0 lg:flex-1">
                     <a href="#">
                         <span class="sr-only">Nikkl</span>
-                        <img class="h-8 w-auto sm:h-10" src="./img/logo-nikkl-white.svg" alt="Nikkl">
+                        <img class="h-8 w-auto sm:h-10" src="./img/logo-nikkl.svg" alt="Nikkl">
                     </a>
                 </div>
                 <nav class="flex space-x-4  md:space-x-10">
     
-                    <a href="./" class="text-base font-medium text-indigo-200 hover:text-white">Home</a>
-                    <a href="./about/" class="text-base font-medium text-indigo-200 hover:text-white">About</a>
-                    <a href="./contact/" class="text-base font-medium text-indigo-200 hover:text-white">Contact</a>
+                    <a href="./" class="text-base uppercase font-bold text-indigo hover:text-indigo-400">Home</a>
+                    <a href="./about/" class="text-base uppercase font-bold text-indigo hover:text-indigo-400">About</a>
+                    <a href="./contact/" class="text-base uppercase font-bold text-indigo hover:text-indigo-400">Contact</a>
     
                 </nav>
                 <div class="hidden items-center justify-end md:flex md:flex-1 lg:w-0">
@@ -63,31 +83,31 @@
 
             <main class="mx-auto px-4">
                 <div class="text-center">
-                    <h1 class="font-sans uppercase text-4xl font-bold tracking-tight text-indigo-200 sm:text-5xl md:text-6xl xl:text-7xl">
-                        <span class="block xl:inline">We support </span><br>
-                        <span class="block text-white xl:inline">unicorn employees.</span>
+                    <h1 class="font-sans text-4xl font-bold tracking-tight text-indigo sm:text-5xl md:text-6xl xl:text-9xl">
+                        <span class="inline text-transparent bg-clip-text bg-gradient-to-br from-indigo to-indigo-900">We Support </span><br>
+                        <span class="inline text-transparent bg-clip-text bg-gradient-to-br from-indigo to-indigo-900">Unicorn Employees.</span>
                     </h1>
-                    <p class="mx-auto mt-3 max-w-md text-base text-indigo-50 sm:text-lg md:mt-8 md:max-w-3xl md:text-2xl">
+                    <p class="mx-auto mt-3 max-w-md text-base text-indigo sm:text-lg md:mt-8 md:max-w-3xl md:text-2xl xl:text-4xl">
                         Unlock the liquidity of your <br>hard-earned unicorn stock options.</p>
                 </div>
             </main>
         </div>
     </div>
-    <div class="bg-indigo-500">
+    <div class="bg-gradient-to-r from-indigo-900 to-indigo-600">
         <div class="mx-auto pt-12 px-4 sm:px-6 lg:py-12 lg:px-8">
-            <p class="text-center text-lg font-semibold text-white">We've helped unicorn employees
+            <p class="text-center text-lg text-white">We've helped unicorn employees
                 from these companies.</p>
             <div class="mt-6 grid grid-cols-2 gap-0.5 md:grid-cols-4 lg:mt-8">
-                <div class="col-span-1 flex justify-center bg-indigo-700 py-8 px-8">
+                <div class="col-span-1 flex justify-center bg-indigo-800 py-8 px-8">
                     <img class="max-h-7 opacity-50" src="./img/instacart-logo.svg" alt="Instacart">
                 </div>
-                <div class="col-span-1 flex justify-center bg-indigo-700 py-8 px-8">
+                <div class="col-span-1 flex justify-center bg-indigo-800 py-8 px-8">
                     <img class="max-h-7 opacity-50" src="./img/Illumio-logo.svg" alt="Illumio">
                 </div>
-                <div class="col-span-1 flex justify-center bg-indigo-700 py-8 px-8">
+                <div class="col-span-1 flex justify-center bg-indigo-800 py-8 px-8">
                     <img class="max-h-7 opacity-50" src="./img/twillio-logo.svg" alt="Twillio">
                 </div>
-                <div class="col-span-1 flex justify-center bg-indigo-700 py-8 px-8">
+                <div class="col-span-1 flex justify-center bg-indigo-800 py-8 px-8">
                     <img class="max-h-7 opacity-50" src="./img/logo-offerpad.svg" alt="OfferPad">
                 </div>
             </div>
@@ -203,9 +223,9 @@
         </div>
     </div>
 
-    <footer class="bg-indigo-800" aria-labelledby="footer-heading">
+    <footer class="bg-gradient-to-r from-indigo-900 to-indigo-700" aria-labelledby="footer-heading">
         <h2 id="footer-heading" class="sr-only">Footer</h2>
-        <div class="mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
+        <div class="mx-auto py-12 px-4 sm:px-6 lg:py-32 lg:px-16">
             <div class="xl:grid xl:grid-cols-3 xl:gap-8">
                 <div class="space-y-8 xl:col-span-1">
                     <img class="h-10" src="./img/logo-nikkl-white.svg" alt="Nikkl">
